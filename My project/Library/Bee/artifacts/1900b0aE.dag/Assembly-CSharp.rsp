@@ -353,7 +353,10 @@
 -analyzer:"C:/Unity/Unity/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Unity/Unity/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Camera_controller.cs"
+"Assets/Scripts/Checkpoint_behaviour.cs"
 "Assets/Scripts/Engine_audio.cs"
+"Assets/Scripts/Main_menu_controller.cs"
+"Assets/Scripts/Options_menu_controller.cs"
 "Assets/Scripts/Player_car_controller.cs"
 "Assets/Scripts/Race_timer.cs"
 -langversion:9.0

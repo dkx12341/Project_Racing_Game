@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 6180542621557337280}
   - component: {fileID: 7931471006409183212}
   - component: {fileID: 8322546356250729811}
+  - component: {fileID: 3277100289864958077}
   m_Layer: 0
   m_Name: Car2
   m_TagString: Untagged
@@ -194,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2440100706558624049}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -70.56, y: 0.428, z: 2.89}
   m_LocalScale: {x: 0.585, y: 0.585, z: 0.585}
   m_ConstrainProportionsScale: 0
@@ -378,6 +379,23 @@ MonoBehaviour:
   Idle_max_pitch: 0.8
   engine_usage: 0
   volume: 0.02
+--- !u!114 &3277100289864958077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440100706558624049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd10f22720bcc724d9df58a031b0f77d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start_timer: 0
+  lap_time: 0
+  all_checkpoints_true: 0
+  lap_time_ui: {fileID: 0}
+  checkpoint_list_raw: {fileID: 0}
 --- !u!1 &2893868302552514884
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,10 +439,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.6
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 15000
+    damper: 2000
     targetPosition: 0
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.15
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 1
@@ -560,10 +578,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.6
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 15000
+    damper: 2000
     targetPosition: 0
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.15
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 1
@@ -1053,10 +1071,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.6
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 15000
+    damper: 2000
     targetPosition: 0
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.15
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 1
@@ -1124,10 +1142,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.6
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 15000
+    damper: 2000
     targetPosition: 0
-  m_SuspensionDistance: 0.1
+  m_SuspensionDistance: 0.15
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 1
