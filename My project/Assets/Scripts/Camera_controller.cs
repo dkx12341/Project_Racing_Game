@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class Camera_controller : MonoBehaviour
 {
-    public Transform player;
+
+    private GameObject car;
     private Rigidbody PlayerRB;
+    private GameObject player;
     public float cam_speed;
     public Vector3 offset;
     // Start is called before the first frame update
     void Start()
     {
-        PlayerRB = player.GetComponent<Rigidbody>();
+        player = GameObject.FindWithTag("Player");
+        while (car == null)
+        {
+            car = GameObject.FindWithTag("Car");
+        }
+        PlayerRB = car.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, player.position + player.transform.TransformVector(offset), cam_speed * Time.deltaTime);
-        transform.LookAt(player);
+        gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, car.transform.position + car.transform.TransformVector(offset), cam_speed * Time.deltaTime);
+        gameObject.transform.LookAt(car.transform);
     }
 }

@@ -357,6 +357,7 @@
 "Assets/Scripts/Engine_audio.cs"
 "Assets/Scripts/Main_menu_controller.cs"
 "Assets/Scripts/Options_menu_controller.cs"
+"Assets/Scripts/Player_behaviour.cs"
 "Assets/Scripts/Player_car_controller.cs"
 "Assets/Scripts/Race_timer.cs"
 -langversion:9.0

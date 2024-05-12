@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Checkpoints_list
+  - Start_line
+  - Finish_line
+  - Lap_timer
   layers:
   - Default
   - TransparentFX
