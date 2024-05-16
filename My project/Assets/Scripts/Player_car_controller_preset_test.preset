@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_car_controller_preset_test
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: bd2d7d8695061bc4f83594746cd64bac, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colliders.FR_C
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colliders.FL_C
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colliders.BR_C
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colliders.BL_C
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wheel_meshes.FR_M
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wheel_meshes.FL_M
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wheel_meshes.BR_M
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wheel_meshes.BL_M
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_state
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gas_input
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: turn_input
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: brake_input
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: engine_power
+    value: 600
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: brake_power
+    value: 1700
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: speed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: max_speed
+    value: 400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: slip_angle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].time
+    value: 0.15418506
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].value
+    value: 59.970596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].inSlope
+    value: -0.0030777599
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].outSlope
+    value: -0.0030777599
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[0].outWeight
+    value: 0.17785275
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].time
+    value: 497.7064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].value
+    value: 24.470736
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].inSlope
+    value: -0.24195977
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].outSlope
+    value: -0.24195977
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].inWeight
+    value: 0.045304615
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: steering_curve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: is_engine_running
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RPM
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RPM_redline
+    value: 6500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: idle_RPM
+    value: 800
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RPM_txt
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_txt
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].time
+    value: -0.032816567
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].value
+    value: -0.002843587
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].inSlope
+    value: 1.3933187
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].outSlope
+    value: 1.3933187
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[0].outWeight
+    value: 0.09687331
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].inSlope
+    value: 0.042324264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].outSlope
+    value: 0.042324264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].inWeight
+    value: 0.19184935
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[1].outWeight
+    value: 0.78039604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].time
+    value: 1.1782609
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].value
+    value: 0.008558631
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].inSlope
+    value: -1.6931419
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].outSlope
+    value: -1.6931419
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].inWeight
+    value: 0.15203357
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_Curve.Array.data[2].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horsepower_curve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_ratios.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_ratios.Array.data[0]
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_ratios.Array.data[1]
+    value: 2.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_ratios.Array.data[2]
+    value: 1.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_ratios.Array.data[3]
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gear_ratios.Array.data[4]
+    value: 0.8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: current_gear
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: differential_ratio
+    value: 2
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
