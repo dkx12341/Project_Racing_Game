@@ -2286,7 +2286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a5108e1e2f2c24ca565d789187eb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player_car: {fileID: 2440100706558624049, guid: e2b14cfc1df13cf4eb29b5f187f69d1c, type: 3}
+  Selected_car: {fileID: 11400000, guid: 3de10406541613349b81f277cc1e09d6, type: 2}
 --- !u!4 &1773474617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 620010129018908916, guid: df143724da3d4ef41894bcf6386cf77b, type: 3}

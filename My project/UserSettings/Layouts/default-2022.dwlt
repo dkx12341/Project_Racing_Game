@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1117
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38
+  controlID: 98
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs/Cars
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs/Cars
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Repos\Racing_game_proj\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e5b0000
-    m_LastClickedID: 23358
-    m_ExpandedIDs: 00000000285b0000385b00003c5b000000ca9a3b
+    m_SelectedIDs: 445b0000
+    m_LastClickedID: 23364
+    m_ExpandedIDs: 00000000325b0000345b0000365b0000405b0000e0640000e464000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000285b00002a5b0000
+    m_ExpandedIDs: 00000000325b0000345b0000365b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,23 +506,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 54deffff68f5ffff60f8ffffc8f9ffff30fbffff
+      m_SelectedIDs: 26d1ffff20d1ffff1ad1ffff14d1ffff
+      m_LastClickedID: -12012
+      m_ExpandedIDs: 2ad1ffff60d1ffff02d7ffff26e4ffffd4e5ffff26e6ffffbce6ffff1ee8ffff24fbffffa2640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Car2
-        m_OriginalName: Car2
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -13914
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -862,9 +862,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.18677, y: 6.0233836, z: 0.63525933}
+    m_Target: {x: -66.538124, y: 1.8968638, z: -32.702656}
     speed: 2
-    m_Value: {x: -13.18677, y: 6.0233836, z: 0.63525933}
+    m_Value: {x: -66.538124, y: 1.8968638, z: -32.702656}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -910,13 +910,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.023971995, y: -0.046471298, z: 0.0011057332, w: 0.99864423}
+    m_Target: {x: 0.09798752, y: -0.81500036, z: 0.14451446, w: 0.552554}
     speed: 2
-    m_Value: {x: 0.023973318, y: -0.044972703, z: 0.0010697603, w: 0.99869996}
+    m_Value: {x: 0.09798618, y: -0.8149892, z: 0.14451247, w: 0.55254644}
   m_Size:
-    m_Target: 3.7575665
+    m_Target: 2.4196002
     speed: 2
-    m_Value: 3.7575665
+    m_Value: 2.4196002
   m_Ortho:
     m_Target: 0
     speed: 2

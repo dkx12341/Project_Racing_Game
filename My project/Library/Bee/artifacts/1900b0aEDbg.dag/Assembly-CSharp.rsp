@@ -360,6 +360,7 @@
 "Assets/Scripts/Player_behaviour.cs"
 "Assets/Scripts/Player_car_controller.cs"
 "Assets/Scripts/Race_timer.cs"
+"Assets/Scripts/Scriptable_objects/SO_string.cs"
 "Assets/Scripts/Setup_menu_controller.cs"
 -langversion:9.0
 

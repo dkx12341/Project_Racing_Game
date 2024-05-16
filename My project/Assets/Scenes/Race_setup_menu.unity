@@ -3138,6 +3138,7 @@ MonoBehaviour:
   car_selector: {fileID: 620369042}
   levels_list: []
   cars_list: []
+  Selected_car: {fileID: 11400000, guid: 3de10406541613349b81f277cc1e09d6, type: 2}
 --- !u!1 &1956466494
 GameObject:
   m_ObjectHideFlags: 0

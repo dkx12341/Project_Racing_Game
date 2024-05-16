@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -17,6 +18,7 @@ public class Setup_menu_controller : MonoBehaviour
     public string[] levels_list;
     public string[] cars_list;
     private string currently_selected_level;
+    public SO_string Selected_car;
     public void Start()
     {
       
@@ -43,11 +45,12 @@ public class Setup_menu_controller : MonoBehaviour
             cars.Add(cars_list[i]);
         }
         car_selector.AddOptions(cars);
+        Selected_car.Str = cars[0];
     }
     public void on_dropdown_update()
     {
         currently_selected_level =  track_selector.options[track_selector.value].text;
-
+        Selected_car.Str = car_selector.options[car_selector.value].text;
 
     }
 
