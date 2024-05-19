@@ -3,7 +3,7 @@ using System.Collections.Generic;
 //using UnityEditor.Timeline.Actions;
 using UnityEngine;
 using TMPro;
-using System.Numerics;
+
 
 public class Player_car_controller : MonoBehaviour
 {
@@ -52,6 +52,7 @@ public class Player_car_controller : MonoBehaviour
         apply_engine_power();
         apply_brakes();
         apply_steering();
+        check_if_car_flipped();
         
     }
     public float Get_engine_usage()
@@ -133,6 +134,24 @@ public class Player_car_controller : MonoBehaviour
         mesh.transform.position = position;
         mesh.transform.rotation = quat;
 
+    }
+
+    void check_if_car_flipped()
+    {
+        if(gameObject.transform.rotation.z>0.69|| gameObject.transform.rotation.z < -0.69 || gameObject.transform.rotation.x > 0.90 || gameObject.transform.rotation.x < -0.90)
+        {
+            if (gameObject.GetComponent<Rigidbody>().velocity.magnitude < 0.1)
+            {
+                
+                rotate_car();
+            }
+        }
+    }
+
+    void rotate_car()
+    {
+        transform.position = transform.position + new UnityEngine.Vector3(0, 2, 0);
+        transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 }
 [System.Serializable]

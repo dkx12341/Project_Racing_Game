@@ -9,10 +9,12 @@ public class Race_timer : MonoBehaviour
     public float lap_time;
     public bool all_checkpoints_true = false;
     private Text lap_time_ui;
+    public Text best_time_ui;
     public Dictionary<GameObject, bool> checkpoint_list = new Dictionary<GameObject, bool>();
     private Transform checkpoint_list_raw;
     private GameObject start_line;
     private GameObject finish_line;
+    public SO_best_time Best_time;
     
     
     void Start()
@@ -21,12 +23,12 @@ public class Race_timer : MonoBehaviour
         start_line = GameObject.FindWithTag("Start_line");
         finish_line = GameObject.FindWithTag("Finish_line");
         lap_time_ui = GameObject.FindWithTag("Lap_timer").GetComponent<Text>();
-
+        best_time_ui = GameObject.FindWithTag("Best_time").GetComponent<Text>();
         foreach (Transform checkpoint in checkpoint_list_raw)
         {
             checkpoint_list.Add(checkpoint.gameObject, false);
         }
-
+        best_time_ui.text = best_time_ui.text + Best_time.Best_time.ToString("F2");
     }
    
 
@@ -49,6 +51,20 @@ public class Race_timer : MonoBehaviour
         }
         else if(other.gameObject == finish_line && start_timer == true && all_checkpoints_true==true)
         {
+            if(Best_time.Time_set == false)
+            {
+                Best_time.Best_time = lap_time;
+                Best_time.Time_set = true;
+                best_time_ui.text = best_time_ui.text + Best_time.Best_time.ToString("F2");
+            }
+            else
+            {
+                if(Best_time.Best_time>lap_time)
+                {
+                    Best_time.Best_time = lap_time;
+                    best_time_ui.text = best_time_ui.text + Best_time.Best_time.ToString("F2");
+                }
+            }
             start_timer = false;
         }
         

@@ -394,6 +394,7 @@ MonoBehaviour:
   start_timer: 0
   lap_time: 0
   all_checkpoints_true: 0
+  Best_time: {fileID: 11400000, guid: a9ccaab39a588044085f18b8e0ff68fd, type: 2}
 --- !u!1 &2893868302552514884
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ TagManager:
   - Start_line
   - Finish_line
   - Lap_timer
+  - Best_time
   layers:
   - Default
   - TransparentFX
