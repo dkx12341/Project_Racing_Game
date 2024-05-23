@@ -3,13 +3,17 @@ using System.Collections.Generic;
 //using UnityEditor.Timeline.Actions;
 using UnityEngine;
 using TMPro;
+using System;
 
 
 public class Player_car_controller : MonoBehaviour
 {
+    
     private Rigidbody player_RB;
     public WheelColliders colliders;
     public WheelMeshes wheel_meshes;
+    //public SmokeGenerators wheels_smoke;
+    public ParticleSystem[] smoke_generators_list;
     public GearState gear_state;
 
     public float gas_input;
@@ -21,6 +25,7 @@ public class Player_car_controller : MonoBehaviour
     public float speed;
     public float max_speed;
     public float slip_angle;
+    public float slip_allowance = 0.3f;
     public AnimationCurve steering_curve;
     public int is_engine_running;
 
@@ -53,7 +58,7 @@ public class Player_car_controller : MonoBehaviour
         apply_brakes();
         apply_steering();
         check_if_car_flipped();
-        
+        start_smoke();
     }
     public float Get_engine_usage()
     {
@@ -153,7 +158,35 @@ public class Player_car_controller : MonoBehaviour
         transform.position = transform.position + new UnityEngine.Vector3(0, 2, 0);
         transform.rotation = Quaternion.Euler(0, 0, 0);
     }
+
+    void start_smoke()
+    {
+        WheelHit hit;
+        WheelCollider[] colliders_list = { colliders.FL_C, colliders.FR_C, colliders.BR_C, colliders.BL_C };
+        //ParticleSystem[] smoke_generators_list = { wheels_smoke.FL_PS, wheels_smoke.FR_PS, wheels_smoke.BR_PS, wheels_smoke.BL_PS };
+        for(int i = 0; i < colliders_list.Length; i++ )
+        {
+            if (colliders_list[i].GetGroundHit(out hit))
+            {
+                if(Mathf.Abs(hit.forwardSlip)+ Mathf.Abs(hit.sidewaysSlip)>= slip_allowance)
+                {
+                    if (!smoke_generators_list[i].isPlaying)
+                    {
+                        smoke_generators_list[i].Play();
+                    }
+                }
+                else
+                {
+                    if (smoke_generators_list[i].isPlaying)
+                    {
+                        smoke_generators_list[i].Stop() ;
+                    }
+                }
+            }
+        }
+    }
 }
+
 [System.Serializable]
 public struct WheelColliders
 {
@@ -170,6 +203,16 @@ public struct WheelMeshes
     public MeshRenderer BR_M;
     public MeshRenderer BL_M;
 }
+
+[System.Serializable]
+public struct SmokeGenerators
+{
+    public ParticleSystem FR_PS;
+    public ParticleSystem FL_PS;
+    public ParticleSystem BR_PS;
+    public ParticleSystem BL_PS;
+}
+
 
 public enum GearState
 {
