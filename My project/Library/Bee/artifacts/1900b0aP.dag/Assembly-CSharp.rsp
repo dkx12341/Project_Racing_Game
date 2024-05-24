@@ -310,10 +310,16 @@
 "Assets/Scripts/Camera_controller.cs"
 "Assets/Scripts/Checkpoint_behaviour.cs"
 "Assets/Scripts/Engine_audio.cs"
-"Assets/Scripts/Main_menu_controller.cs"
-"Assets/Scripts/Options_menu_controller.cs"
+"Assets/Scripts/Menu_controllers/Main_menu_controller.cs"
+"Assets/Scripts/Menu_controllers/Options_menu_controller.cs"
+"Assets/Scripts/Menu_controllers/Pause_menu_controller.cs"
+"Assets/Scripts/Menu_controllers/Setup_menu_controller.cs"
+"Assets/Scripts/Player_behaviour.cs"
 "Assets/Scripts/Player_car_controller.cs"
 "Assets/Scripts/Race_timer.cs"
+"Assets/Scripts/Scriptable_objects/SO_best_time.cs"
+"Assets/Scripts/Scriptable_objects/SO_float.cs"
+"Assets/Scripts/Scriptable_objects/SO_string.cs"
 -langversion:9.0
 
 /deterministic

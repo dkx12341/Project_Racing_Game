@@ -13,8 +13,8 @@ using UnityEngine.Windows;
 public class Setup_menu_controller : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Dropdown track_selector;
-    public Dropdown car_selector;
+    public TMP_Dropdown track_selector;
+    public TMP_Dropdown car_selector;
     public string[] levels_list;
     public string[] cars_list;
     private string currently_selected_level;
@@ -22,10 +22,9 @@ public class Setup_menu_controller : MonoBehaviour
     public void Start()
     {
       
-
         track_selector.ClearOptions();
         List<string> tracks = new List<string>();
-        levels_list = System.IO.Directory.GetFiles("Assets/Scenes/Levels", "*.unity", SearchOption.AllDirectories);
+        levels_list = System.IO.Directory.GetFiles("Assets/Resources/Scenes/Levels", "*.unity", SearchOption.AllDirectories);
         for(int i =0;  levels_list.Length>i; i++)
         {
             levels_list[i] = Path.GetFileName(levels_list[i]);
@@ -37,7 +36,7 @@ public class Setup_menu_controller : MonoBehaviour
 
         car_selector.ClearOptions();
         List<string> cars = new List<string>();
-        cars_list = System.IO.Directory.GetFiles("Assets/Prefabs/Cars", "*.prefab", SearchOption.AllDirectories);
+        cars_list = System.IO.Directory.GetFiles("Assets/Resources/Prefabs/Cars", "*.prefab", SearchOption.AllDirectories);
         for (int i = 0; cars_list.Length > i; i++)
         {
             cars_list[i] = Path.GetFileName(cars_list[i]);

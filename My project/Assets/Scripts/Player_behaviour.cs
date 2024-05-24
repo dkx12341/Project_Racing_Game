@@ -11,9 +11,9 @@ public class Player_behaviour : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-        string car_name = "Assets/Prefabs/Cars/"+Selected_car.Str+".prefab";
-        
-        Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>(car_name), gameObject.transform, worldPositionStays: false);
+        string car_name = "Prefabs/Cars/"+Selected_car.Str;
+        GameObject car = (GameObject)Resources.Load(car_name,typeof(GameObject));
+        Instantiate(car, gameObject.transform, worldPositionStays: false);
     }
 
     // Update is called once per frame
