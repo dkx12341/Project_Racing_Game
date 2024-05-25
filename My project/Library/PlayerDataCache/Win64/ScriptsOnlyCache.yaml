@@ -110,6 +110,9 @@ ScriptsOnlyBuild:
     methodName: on_dropdown_update
   - assembly: Assembly-CSharp
     fullTypeName: Setup_menu_controller
+    methodName: on_dropdown_update
+  - assembly: Assembly-CSharp
+    fullTypeName: Setup_menu_controller
     methodName: on_click_back
   - assembly: Assembly-CSharp
     fullTypeName: Setup_menu_controller
@@ -841,7 +844,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 6c9475f1ed3ae5d8ee796300e81c7d06
+      Hash: 8286c98197c982f37364ce157a7e2d5e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Setup_menu_controller
