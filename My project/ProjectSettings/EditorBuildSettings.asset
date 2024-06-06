@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Race_setup_menu.unity
     guid: a1d82ee06aa3a5241989faa2a875322a
   - enabled: 1
-    path: Assets/Resources/Scenes/Levels/Racing_track_test.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Resources/Scenes/Levels/Racing_track_1.unity
+    path: Assets/Resources/Scenes/Levels/track_Racing_track_1.unity
     guid: b837f2e9d67bee144a52dd67827b2669
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/track_test.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

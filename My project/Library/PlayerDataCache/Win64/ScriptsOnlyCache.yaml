@@ -124,7 +124,7 @@ ScriptsOnlyBuild:
     fullTypeName: Pause_menu_controller
     methodName: on_resume_button
   sceneClasses:
-    Assets/Resources/Scenes/Levels/Racing_track_1.unity:
+    Assets/Resources/Scenes/Levels/track_Racing_track_1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -187,7 +187,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Resources/Scenes/Levels/Racing_track_test.unity:
+    Assets/Resources/Scenes/Levels/track_test.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -844,7 +844,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 8286c98197c982f37364ce157a7e2d5e
+      Hash: fe2a3801a376dc27196b7f4548ef2e40
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Setup_menu_controller
@@ -1393,6 +1393,6 @@ ScriptsOnlyBuild:
   - Assets/Resources/Scenes/Main_menu.unity
   - Assets/Resources/Scenes/Options_menu.unity
   - Assets/Resources/Scenes/Race_setup_menu.unity
-  - Assets/Resources/Scenes/Levels/Racing_track_test.unity
-  - Assets/Resources/Scenes/Levels/Racing_track_1.unity
-  playerPath: C:/Repos/Racing_game_proj/Racing_game_build/My project.exe
+  - Assets/Resources/Scenes/Levels/track_Racing_track_1.unity
+  - Assets/Resources/Scenes/Levels/track_test.unity
+  playerPath: C:/Repos/Racing_game_proj/Racing_game_proj_build/My project.exe
