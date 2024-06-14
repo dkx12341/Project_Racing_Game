@@ -15,8 +15,11 @@ public class Race_timer : MonoBehaviour
     private GameObject start_line;
     private GameObject finish_line;
     public SO_best_time Best_time;
-    
-    
+    public SO_string Selected_car;
+    public SO_int Selected_laps;
+    public SO_string Selected_track;
+    public int finished_laps = 0;
+
     void Start()
     {
         checkpoint_list_raw = GameObject.FindWithTag("Checkpoints_list").transform;
@@ -45,33 +48,19 @@ public class Race_timer : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject == start_line && start_timer == false)
+        if (other.gameObject == start_line)
         {
-            start_timer = true;
+            on_start_line_collision(other);
         }
-        else if(other.gameObject == finish_line && start_timer == true && all_checkpoints_true==true)
+        else if(other.gameObject == finish_line)
         {
-            if(Best_time.Time_set == false)
-            {
-                Best_time.Best_time = lap_time;
-                Best_time.Time_set = true;
-                best_time_ui.text = best_time_ui.text + Best_time.Best_time.ToString("F2");
-            }
-            else
-            {
-                if(Best_time.Best_time>lap_time)
-                {
-                    Best_time.Best_time = lap_time;
-                    best_time_ui.text = best_time_ui.text + Best_time.Best_time.ToString("F2");
-                }
-            }
-            start_timer = false;
+
+            on_finish_line_collision(other);
         }
         
         if(checkpoint_list.ContainsKey(other.gameObject))
         {
-            checkpoint_list[other.gameObject] = true;
-            all_checkpoints_true = check_if_all_ckeckpoints_true();
+            on_checkpoint_collision(other);
         }
 
     }
@@ -86,5 +75,42 @@ public class Race_timer : MonoBehaviour
             }
         }
         return ret_val;
+    }
+
+    void on_checkpoint_collision(Collider other)
+    {
+        other.gameObject.GetComponent<MeshRenderer>().enabled = false;
+        checkpoint_list[other.gameObject] = true;
+        all_checkpoints_true = check_if_all_ckeckpoints_true();
+    }
+    
+    void on_start_line_collision(Collider other)
+    {
+        if (start_timer == false)
+        {
+            start_timer = true;
+        }
+    }
+
+    void on_finish_line_collision(Collider other)
+    {
+        if ( start_timer == true && all_checkpoints_true == true)
+        {
+            finished_laps++;
+            if (finished_laps < Selected_laps.Val)
+            {
+                List<GameObject> checkpoints = new List<GameObject>(checkpoint_list.Keys);
+                foreach (GameObject i in checkpoints)
+                {
+                    checkpoint_list[i] = false;
+                    i.GetComponent<MeshRenderer>().enabled = true;
+                }
+            }
+            else
+            {
+                start_timer = false;
+            }
+        }
+       
     }
 }

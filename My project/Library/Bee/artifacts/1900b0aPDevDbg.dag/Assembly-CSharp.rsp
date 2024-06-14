@@ -322,8 +322,10 @@
 "Assets/Scripts/Player_behaviour.cs"
 "Assets/Scripts/Player_car_controller.cs"
 "Assets/Scripts/Race_timer.cs"
+"Assets/Scripts/Score_save_load_system.cs"
 "Assets/Scripts/Scriptable_objects/SO_best_time.cs"
 "Assets/Scripts/Scriptable_objects/SO_float.cs"
+"Assets/Scripts/Scriptable_objects/SO_int.cs"
 "Assets/Scripts/Scriptable_objects/SO_string.cs"
 -langversion:9.0
 

@@ -6,9 +6,8 @@ public class Checkpoint_behaviour : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        gameObject.GetComponent<MeshRenderer>().enabled = false;
+        //gameObject.GetComponent<MeshRenderer>().enabled = false;
     }
     
-
 
 }
