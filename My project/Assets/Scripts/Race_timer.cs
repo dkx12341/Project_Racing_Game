@@ -7,18 +7,24 @@ public class Race_timer : MonoBehaviour
 {
     public bool start_timer = false;
     public float lap_time;
+
     public bool all_checkpoints_true = false;
+
     private Text lap_time_ui;
     public Text best_time_ui;
     public Dictionary<GameObject, bool> checkpoint_list = new Dictionary<GameObject, bool>();
     private Transform checkpoint_list_raw;
     private GameObject start_line;
     private GameObject finish_line;
+
     public SO_best_time Best_time;
     public SO_string Selected_car;
     public SO_int Selected_laps;
     public SO_string Selected_track;
+
     public int finished_laps = 0;
+    public GameObject Finished_game_menu;
+
 
     void Start()
     {
@@ -27,6 +33,7 @@ public class Race_timer : MonoBehaviour
         finish_line = GameObject.FindWithTag("Finish_line");
         lap_time_ui = GameObject.FindWithTag("Lap_timer").GetComponent<Text>();
         best_time_ui = GameObject.FindWithTag("Best_time").GetComponent<Text>();
+        Finished_game_menu = GameObject.FindWithTag("Finished_game_menu");
         foreach (Transform checkpoint in checkpoint_list_raw)
         {
             checkpoint_list.Add(checkpoint.gameObject, false);
@@ -109,6 +116,7 @@ public class Race_timer : MonoBehaviour
             else
             {
                 start_timer = false;
+                Finished_game_menu.GetComponent<MeshRenderer>().enabled = true;
             }
         }
        
