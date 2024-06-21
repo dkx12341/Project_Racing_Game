@@ -6,9 +6,12 @@ ScriptsOnlyBuild:
     - Player_car_controller
     - Race_timer
     - SO_best_time
+    - SO_int
+    - SO_string
     Assembly-CSharp.dll:
     - Camera_controller
     - Checkpoint_behaviour
+    - Finished_game_menu_controller
     - Main_menu_controller
     - Options_menu_controller
     - Pause_menu_controller
@@ -128,6 +131,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Pause_menu_controller
     methodName: on_resume_button
+  - assembly: Assembly-CSharp
+    fullTypeName: Finished_game_menu_controller
+    methodName: on_return_button
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause_menu_controller
+    methodName: on_main_menu_button
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause_menu_controller
+    methodName: on_resume_button
+  - assembly: Assembly-CSharp
+    fullTypeName: Finished_game_menu_controller
+    methodName: on_return_button
   sceneClasses:
     Assets/Resources/Scenes/Levels/track_Racing_track_1.unity:
     - Class: 1
@@ -171,13 +186,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5560}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6832}
+      Script: {instanceID: 6834}
     - Class: 114
-      Script: {instanceID: 7020}
+      Script: {instanceID: 7022}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -185,6 +200,83 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Resources/Scenes/Levels/track_test 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 2466}
+    - Class: 114
+      Script: {instanceID: 2600}
+    - Class: 114
+      Script: {instanceID: 2804}
+    - Class: 114
+      Script: {instanceID: 3092}
+    - Class: 114
+      Script: {instanceID: 5014}
+    - Class: 114
+      Script: {instanceID: 5260}
+    - Class: 114
+      Script: {instanceID: 5274}
+    - Class: 114
+      Script: {instanceID: 5434}
+    - Class: 114
+      Script: {instanceID: 5562}
+    - Class: 114
+      Script: {instanceID: 5712}
+    - Class: 114
+      Script: {instanceID: 6026}
+    - Class: 114
+      Script: {instanceID: 6834}
+    - Class: 114
+      Script: {instanceID: 7022}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -242,15 +334,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5560}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5712}
     - Class: 114
-      Script: {instanceID: 6832}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 7020}
+      Script: {instanceID: 6834}
+    - Class: 114
+      Script: {instanceID: 7022}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -329,17 +423,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5014}
     - Class: 114
-      Script: {instanceID: 5560}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5712}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 7020}
+      Script: {instanceID: 6834}
     - Class: 114
-      Script: {instanceID: 7058}
+      Script: {instanceID: 6878}
+    - Class: 114
+      Script: {instanceID: 7022}
+    - Class: 114
+      Script: {instanceID: 7060}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -398,11 +496,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5014}
     - Class: 114
-      Script: {instanceID: 5560}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 5712}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 6026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -467,17 +565,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5560}
+      Script: {instanceID: 5562}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 5712}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6032}
+      Script: {instanceID: 6034}
     - Class: 114
-      Script: {instanceID: 6832}
+      Script: {instanceID: 6834}
     - Class: 114
-      Script: {instanceID: 7064}
+      Script: {instanceID: 7066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -935,7 +1033,7 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b7dd499052f0c333cbcc5573ef8bf700
+      Hash: 1bf160e485c7468c48709e3714072cc0
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Race_timer
@@ -1101,6 +1199,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6a69f90c5adc20fc235430df1adcd781
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Finished_game_menu_controller
   - hash:
       serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
@@ -1408,4 +1512,5 @@ ScriptsOnlyBuild:
   - Assets/Resources/Scenes/Race_setup_menu.unity
   - Assets/Resources/Scenes/Levels/track_Racing_track_1.unity
   - Assets/Resources/Scenes/Levels/track_test.unity
+  - Assets/Resources/Scenes/Levels/track_test 1.unity
   playerPath: C:/Repos/Racing_game_proj/Racing_game_proj_build/My project.exe

@@ -315,6 +315,7 @@
 "Assets/Scripts/Camera_controller.cs"
 "Assets/Scripts/Checkpoint_behaviour.cs"
 "Assets/Scripts/Engine_audio.cs"
+"Assets/Scripts/Menu_controllers/Finished_game_menu_controller.cs"
 "Assets/Scripts/Menu_controllers/Main_menu_controller.cs"
 "Assets/Scripts/Menu_controllers/Options_menu_controller.cs"
 "Assets/Scripts/Menu_controllers/Pause_menu_controller.cs"

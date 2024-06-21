@@ -116,7 +116,16 @@ public class Race_timer : MonoBehaviour
             else
             {
                 start_timer = false;
-                Finished_game_menu.GetComponent<MeshRenderer>().enabled = true;
+                Score_save_load_system save_load_System = new Score_save_load_system(Selected_car.Str, Selected_track.Str, Selected_laps.Val);
+                save_load_System.Load_data();
+                if(save_load_System.Get_time() > lap_time || save_load_System.Get_time() ==0 )
+                {
+                    Finished_game_menu.GetComponent<Finished_game_menu_controller>().is_new_record = true;
+                    save_load_System.Set_time(lap_time);
+                    save_load_System.Save_data();
+                }
+                Finished_game_menu.GetComponent<Finished_game_menu_controller>().final_time = lap_time;
+                Finished_game_menu.GetComponent<Finished_game_menu_controller>().game_is_finished = true;
             }
         }
        

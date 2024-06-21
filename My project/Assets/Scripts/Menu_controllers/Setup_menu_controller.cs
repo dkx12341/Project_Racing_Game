@@ -49,15 +49,18 @@ public class Setup_menu_controller : MonoBehaviour
         }
         car_selector.AddOptions(cars);
         Selected_car.Str = cars[0];
+
+
         Selected_laps.Val = Int16.Parse( laps_selector.options[laps_selector.value].text);
         get_best_time();
     }
     private void get_best_time()
     {
-        Score_save_load_system load_System = new Score_save_load_system(Selected_car.Str, Selected_track.Str);
+        Score_save_load_system load_System = new Score_save_load_system(Selected_car.Str, Selected_track.Str, Selected_laps.Val);
+        load_System.Load_data();
         if (load_System.Get_time() != 0)
         {
-            best_time.text = "Best time:\n" + load_System.Get_time();
+            best_time.text = "Best time:\n" + load_System.Get_time().ToString("f2");
         }
         else
         {
@@ -79,6 +82,7 @@ public class Setup_menu_controller : MonoBehaviour
         currently_selected_level = "track_" + track_selector.options[track_selector.value].text;
         Selected_track.Str = currently_selected_level;
         Selected_car.Str = car_selector.options[car_selector.value].text;
+        Selected_laps.Val = Int32.Parse(laps_selector.options[car_selector.value].text);
         get_best_time();
     }
     
