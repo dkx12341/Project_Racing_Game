@@ -23,6 +23,7 @@ public class Player_car_controller : MonoBehaviour
     public float brake_power;
 
     public float speed;
+    public float wheel_speed;
     public float max_speed;
     public float slip_angle;
     public float slip_allowance = 0.3f;
@@ -51,7 +52,8 @@ public class Player_car_controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = Mathf.Min(Mathf.Abs(colliders.BL_C.rpm * colliders.BL_C.radius * 2f * Mathf.PI), Mathf.Abs( colliders.BR_C.rpm * colliders.BR_C.radius * 2f * Mathf.PI)) / 10f;
+        wheel_speed = Mathf.Min(Mathf.Abs(colliders.BL_C.rpm * colliders.BL_C.radius * 2f * Mathf.PI), Mathf.Abs( colliders.BR_C.rpm * colliders.BR_C.radius * 2f * Mathf.PI)) / 10f;
+        speed = Vector3.Magnitude(player_RB.velocity);
         update_wheels();
         get_input();
         apply_engine_power();
@@ -63,7 +65,7 @@ public class Player_car_controller : MonoBehaviour
     public float Get_engine_usage()
     {
         var gas = Mathf.Clamp(gas_input, 0.5f, 1f); 
-        return (Mathf.Abs(speed) * gas) / max_speed;
+        return (Mathf.Abs(wheel_speed) * gas) / max_speed;
     }
 
     void apply_steering()
