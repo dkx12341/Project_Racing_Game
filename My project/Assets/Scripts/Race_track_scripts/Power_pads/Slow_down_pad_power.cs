@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Slow_down_pad_power : Pad_power
 {
-    public float slow_down_power = -20000f;
+    public float slow_down_power = -10000f;
     // Start is called before the first frame update
     public override void apply_pad_power(Collider other)
     {

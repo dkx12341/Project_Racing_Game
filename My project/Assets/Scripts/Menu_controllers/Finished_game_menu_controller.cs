@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -32,12 +33,13 @@ public class Finished_game_menu_controller : MonoBehaviour
     }
     void game_finished()
     {
+       
+        your_time.text += final_time.ToString("F2") + " sec"; 
+        game_is_finished_menu.SetActive(true);
         if (is_new_record == true)
         {
             new_record.enabled = true;
         }
-        your_time.text += final_time.ToString("F2") + " sec"; 
-        game_is_finished_menu.SetActive(true);
     }
     public void on_return_button()
     {

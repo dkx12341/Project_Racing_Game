@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Slippery_pad_power : Pad_power
 {
-    public new float power_time = 5;
+    public new float power_time = 2;
     
     public float slip_power = 2;
 

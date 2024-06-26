@@ -112,6 +112,7 @@ public class Race_timer : MonoBehaviour
                     checkpoint_list[i] = false;
                     i.GetComponent<MeshRenderer>().enabled = true;
                 }
+                all_checkpoints_true = false;
             }
             else
             {
@@ -123,6 +124,10 @@ public class Race_timer : MonoBehaviour
                     Finished_game_menu.GetComponent<Finished_game_menu_controller>().is_new_record = true;
                     save_load_System.Set_time(lap_time);
                     save_load_System.Save_data();
+                }
+                else
+                {
+                    Finished_game_menu.GetComponent<Finished_game_menu_controller>().is_new_record = false;
                 }
                 Finished_game_menu.GetComponent<Finished_game_menu_controller>().final_time = lap_time;
                 Finished_game_menu.GetComponent<Finished_game_menu_controller>().game_is_finished = true;
