@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Pad_behaviour : MonoBehaviour
 {
-    public float change_time = 600;
+    private float change_time = 2f;
     public float time_since_change = 0f;
     public int i = 1;
     public Material[] colours;
@@ -47,7 +47,7 @@ public class Pad_behaviour : MonoBehaviour
         {
             currenty_active_power = pads_list[i];
             pad_renderer.material = colours[i];
-            Waiter.Wait(change_time, () => { });
+            //Waiter.Wait(change_time, () => { });
 
             if (i == 2)
             {

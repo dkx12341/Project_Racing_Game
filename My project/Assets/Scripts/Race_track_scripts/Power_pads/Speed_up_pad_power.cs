@@ -6,7 +6,7 @@ public class Speed_up_pad_power : Pad_power
 {
     // Start is called before the first frame update
 
-    public new float power_time = 2;
+    public new float power_time = 5;
 
     public float speed_up_power = 2;
     public override void apply_pad_power(Collider other)

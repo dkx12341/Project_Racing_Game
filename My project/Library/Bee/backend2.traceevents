@@ -1,572 +1,162 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1719350667933000, "dur":15484, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1719350667948491, "dur":138, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1719350667948682, "dur":233, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1719350667950767, "dur":142, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":0, "ts":1719350667948930, "dur":3823, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1719350667952756, "dur":692181, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1719350668644938, "dur":136, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1719350668645198, "dur":1062, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1719350667949108, "dur":3655, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1719350667952766, "dur":4942, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1719350667958325, "dur":674, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1719350667959003, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1719350667959080, "dur":7407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1719350667966488, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1719350667966690, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667966879, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667966953, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667967073, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667967301, "dur":279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667967581, "dur":629, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667968211, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667968420, "dur":493, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667968914, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667969049, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667969174, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667969396, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667969592, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667969719, "dur":768, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667970488, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667970581, "dur":1393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667971975, "dur":398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667972374, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667972453, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667972514, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667972746, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667972901, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667973052, "dur":850, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667973903, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667974187, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667974377, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667974452, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667974587, "dur":2108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667976700, "dur":1936, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667978639, "dur":2922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667981562, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf2f7bd1e-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1719350667981656, "dur":48038, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668029696, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668029863, "dur":89244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668119108, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668119214, "dur":419, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668119634, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
-,{ "pid":12345, "tid":1, "ts":1719350668119745, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668119795, "dur":37470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668157266, "dur":19358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668176626, "dur":60791, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668237419, "dur":48077, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668285498, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668285596, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668285762, "dur":552, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
-,{ "pid":12345, "tid":1, "ts":1719350668286314, "dur":1532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668287847, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668287943, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668288030, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668288118, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668288209, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
-,{ "pid":12345, "tid":1, "ts":1719350668288269, "dur":66341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668354612, "dur":20081, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668374694, "dur":46145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668420841, "dur":39867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668460710, "dur":19831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668480543, "dur":27324, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668507869, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668507940, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350668508090, "dur":55269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":1, "ts":1719350667959001, "dur":604360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1719350668563837, "dur":77807, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1719350668644370, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1719350668644369, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1719350668644435, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1719350667949140, "dur":3634, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350667952776, "dur":821, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350667953598, "dur":4119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350667957732, "dur":26391, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1719350667957718, "dur":26407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1719350667984126, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350667984222, "dur":7973, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350667984221, "dur":7975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350667992235, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350667993842, "dur":5347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350667993841, "dur":5349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350667999191, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350667999685, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668003779, "dur":6471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668003778, "dur":6473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668010280, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668011557, "dur":6465, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668011556, "dur":6466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668018023, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350668018335, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668020503, "dur":3967, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GameCenterModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668020502, "dur":3969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668024472, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350668024772, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668025818, "dur":4842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668025817, "dur":4844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668030696, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668031412, "dur":4108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668031410, "dur":4111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AIModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668035521, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1719350668035657, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AIModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1719350668038473, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1719350668040932, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level4" }}
-,{ "pid":12345, "tid":2, "ts":1719350668044449, "dur":600484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667949184, "dur":3606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667952792, "dur":606, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667953398, "dur":4322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667957722, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1719350667957821, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667958159, "dur":8585, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1719350667958149, "dur":8596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1719350667966746, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667966813, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1719350667966871, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667967159, "dur":4110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667967158, "dur":4112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667971272, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667971750, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667974262, "dur":4792, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667974261, "dur":4794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667979056, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667979179, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667980367, "dur":4064, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667980365, "dur":4067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667984433, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350667984737, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667986486, "dur":5379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667986484, "dur":5382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667991905, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667992518, "dur":9780, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350667992517, "dur":9782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668002337, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668004551, "dur":4520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668004549, "dur":4523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668009120, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668010168, "dur":4533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668010167, "dur":4536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668014739, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668015463, "dur":5237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.JSONSerializeModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668015461, "dur":5240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668020701, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350668020765, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668021386, "dur":5136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668021385, "dur":5141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.CoreModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668026575, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.CoreModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668028950, "dur":4847, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668028949, "dur":4849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668033834, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1719350668037913, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":3, "ts":1719350668039239, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350668039516, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1719350668039774, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1719350668040591, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level4.resS" }}
-,{ "pid":12345, "tid":3, "ts":1719350668043475, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1719350668045028, "dur":599918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667949130, "dur":3639, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667952771, "dur":691, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667953463, "dur":4267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667957731, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1719350667957821, "dur":905, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667958730, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1719350667958821, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667958977, "dur":8065, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1719350667958971, "dur":8072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1719350667967044, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667967098, "dur":5687, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667967097, "dur":5689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667972844, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667974284, "dur":5917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667974283, "dur":5920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667980256, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.XRModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667981331, "dur":3786, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667981330, "dur":3787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667985118, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667985183, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667986842, "dur":8312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityTestProtocolModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667986841, "dur":8314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667995156, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350667995237, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667996075, "dur":4912, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TilemapModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350667996072, "dur":4916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TilemapModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668001026, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TilemapModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668002972, "dur":6529, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TLSModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668002970, "dur":6532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TLSModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668009554, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TLSModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668010758, "dur":4313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668010757, "dur":4314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668015108, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668016343, "dur":4169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ImageConversionModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668016342, "dur":4170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668020570, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668021269, "dur":4476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668021268, "dur":4481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668025779, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668026661, "dur":4203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668026660, "dur":4204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668030865, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668030938, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1719350668032034, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668032402, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668032607, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668032740, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668032967, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668033231, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668033405, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668033542, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1719350668033678, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668033894, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668034032, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668034195, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668034450, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668034730, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668034884, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668035085, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668035339, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668035543, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668035873, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668036098, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668036302, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668036534, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668036876, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668037140, "dur":670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1719350668037825, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1719350668039028, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1719350668041115, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level3.resS" }}
-,{ "pid":12345, "tid":4, "ts":1719350668043782, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1719350668045671, "dur":599273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350667949173, "dur":3611, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350667952787, "dur":710, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350667953497, "dur":4227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350667957725, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1719350667957853, "dur":838, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350667958707, "dur":8202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1719350667958697, "dur":8214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1719350667966911, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350667967049, "dur":4150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667967048, "dur":4152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667971201, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350667971739, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667973172, "dur":5788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667973171, "dur":5790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667978976, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667981055, "dur":6219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667981054, "dur":6220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667987310, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667988018, "dur":6797, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667988017, "dur":6800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667994855, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667995782, "dur":6285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIElementsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350667995781, "dur":6287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668002068, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668002260, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668003966, "dur":7014, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.StreamingModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668003965, "dur":7016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.StreamingModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668011029, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.StreamingModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668011790, "dur":5737, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668011789, "dur":5739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668017563, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668019959, "dur":6139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668019958, "dur":6141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668026162, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668028623, "dur":4077, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AnimationModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668028622, "dur":4079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AnimationModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668032742, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AnimationModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1719350668034140, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668034321, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668034784, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668035090, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668035351, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668035666, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668035908, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668036104, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668036306, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668036536, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668036877, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668037117, "dur":691, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668037813, "dur":669, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1719350668037812, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1719350668038484, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1719350668038626, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1719350668041690, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level2.resS" }}
-,{ "pid":12345, "tid":5, "ts":1719350668044852, "dur":600087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667949213, "dur":3584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667952800, "dur":722, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667953522, "dur":4205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667957728, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1719350667957846, "dur":863, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667958713, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1719350667958805, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667958963, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1719350667959033, "dur":636, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667959674, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1719350667959751, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667959928, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1719350667959986, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667960170, "dur":39108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1719350667960162, "dur":39118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1719350667999280, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350667999470, "dur":4392, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350667999469, "dur":4394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668003864, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350668003947, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668005009, "dur":4242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668005007, "dur":4245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668009287, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668010541, "dur":7482, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668010539, "dur":7485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668018024, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350668018084, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350668018150, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668020565, "dur":5771, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GIModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668020564, "dur":5772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.GIModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668026394, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.GIModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668027618, "dur":4063, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668027616, "dur":4066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668031732, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1719350668032944, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350668033235, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350668033408, "dur":251, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":6, "ts":1719350668033663, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350668033821, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1719350668033965, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1719350668038144, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1719350668040364, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1719350668042063, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level1.resS" }}
-,{ "pid":12345, "tid":6, "ts":1719350668044630, "dur":600302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667949239, "dur":3564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667952805, "dur":775, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667953580, "dur":4142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667957722, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1719350667957840, "dur":405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667958249, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1719350667958428, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667958786, "dur":12322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":7, "ts":1719350667958777, "dur":12332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1719350667971110, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667971201, "dur":7830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667971200, "dur":7832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667979083, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667980737, "dur":3886, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VehiclesModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667980708, "dur":3916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667984674, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667986507, "dur":4573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667986505, "dur":4576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667991118, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667992144, "dur":5107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667992143, "dur":5109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667997252, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350667997425, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667999758, "dur":6010, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350667999757, "dur":6012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668005806, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TerrainModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668006475, "dur":6106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ScreenCaptureModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668006474, "dur":6108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668012620, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668013308, "dur":4706, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668013307, "dur":4708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668018016, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668018097, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668020454, "dur":7600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668020452, "dur":7604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668028110, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668028880, "dur":3882, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668028878, "dur":3885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668032795, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1719350668034124, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668034317, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668034582, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668034686, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668034823, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668035110, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668035546, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668035910, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668036095, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668036271, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668036546, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668036860, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668037130, "dur":714, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1719350668037858, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":7, "ts":1719350668040113, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1719350668043949, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":7, "ts":1719350668045497, "dur":599437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350667949264, "dur":3544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350667952811, "dur":760, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350667953571, "dur":4152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350667957734, "dur":11922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":8, "ts":1719350667957728, "dur":11929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1719350667969658, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350667969737, "dur":4977, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667969736, "dur":4979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667974716, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350667974852, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667976186, "dur":6932, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667976185, "dur":6934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667983171, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667985151, "dur":5470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestTextureModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667985149, "dur":5473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667990659, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667991894, "dur":5156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667991892, "dur":5159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667997090, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667998501, "dur":4736, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreTextEngineModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350667998500, "dur":4738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668003239, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350668003513, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668004576, "dur":8019, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteMaskModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668004575, "dur":8021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668012645, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668013478, "dur":4040, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668013477, "dur":4042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668017557, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668018761, "dur":19100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668018760, "dur":19102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668037863, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1719350668037945, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1719350668038729, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1719350668041135, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level3" }}
-,{ "pid":12345, "tid":8, "ts":1719350668043608, "dur":4714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1719350668048350, "dur":596590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350667949287, "dur":3528, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350667952818, "dur":674, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350667953492, "dur":4234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350667957737, "dur":9258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1719350667957726, "dur":9270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1719350667966997, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350667967060, "dur":9201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667967059, "dur":9203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667976313, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667977053, "dur":6261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667977052, "dur":6263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667983361, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667985340, "dur":5148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667985339, "dur":5150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667990528, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667991688, "dur":6254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667991687, "dur":6256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667997943, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350667998291, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667999752, "dur":10289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainPhysicsModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350667999749, "dur":10293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668010043, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668010177, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668011151, "dur":4132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668011150, "dur":4134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668015325, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668016159, "dur":3795, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputLegacyModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668016158, "dur":3797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668019956, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668020021, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668020931, "dur":3749, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668020930, "dur":3751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668024681, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668024923, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668025911, "dur":5739, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterInputModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668025910, "dur":5741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668031705, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1719350668032837, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668032965, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668033242, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668033408, "dur":244, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1719350668033656, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668033935, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668034057, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668034205, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668034642, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668034746, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668035093, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668035349, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668035548, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668035854, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668036090, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668036280, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668036542, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668036866, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668037115, "dur":684, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668037807, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1719350668038070, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":9, "ts":1719350668040435, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level5" }}
-,{ "pid":12345, "tid":9, "ts":1719350668041769, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level2" }}
-,{ "pid":12345, "tid":9, "ts":1719350668044052, "dur":600878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350667949320, "dur":3501, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350667952824, "dur":169, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350667952994, "dur":4717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350667957720, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350667958683, "dur":4995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/app.info" }}
-,{ "pid":12345, "tid":10, "ts":1719350667963681, "dur":33724, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":10, "ts":1719350667963681, "dur":33725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project.exe" }}
-,{ "pid":12345, "tid":10, "ts":1719350667997441, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project.exe" }}
-,{ "pid":12345, "tid":10, "ts":1719350667997511, "dur":4531, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextRenderingModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350667997510, "dur":4533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668002044, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350668002281, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668003923, "dur":4479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubstanceModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668003922, "dur":4481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668008440, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668009054, "dur":5951, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668009053, "dur":5954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668015046, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668016157, "dur":3704, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668016156, "dur":3706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.InputModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668019863, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350668019953, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.InputModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668020829, "dur":3816, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668020828, "dur":3818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668024647, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1719350668024884, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668025820, "dur":4057, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668025819, "dur":4059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668029951, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668030653, "dur":4083, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668030652, "dur":4085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668034781, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ARModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1719350668038257, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":10, "ts":1719350668040432, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level5.resS" }}
-,{ "pid":12345, "tid":10, "ts":1719350668043075, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level0.resS" }}
-,{ "pid":12345, "tid":10, "ts":1719350668044872, "dur":600066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1719350667949339, "dur":3487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1719350667952827, "dur":4885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1719350667957729, "dur":139088, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1719350667957715, "dur":139104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1719350668096820, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1719350668096977, "dur":547965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350667949362, "dur":3472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350667952835, "dur":4878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350667957730, "dur":2679, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1719350667957715, "dur":2695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1719350667960450, "dur":65739, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":12, "ts":1719350667960449, "dur":65741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":12, "ts":1719350668026191, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668026257, "dur":4595, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1719350668026256, "dur":4597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1719350668030853, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668030944, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1719350668031957, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668032195, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668032565, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668032725, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668032865, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668033237, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668033432, "dur":235, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1719350668033671, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668033746, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668033904, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668034038, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668034208, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668034456, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668034871, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668035091, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668035443, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668035862, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668036092, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668036309, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668036575, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668036862, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668037182, "dur":621, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668037810, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1719350668037976, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1719350668039805, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/resources.resource" }}
-,{ "pid":12345, "tid":12, "ts":1719350668042220, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/level1" }}
-,{ "pid":12345, "tid":12, "ts":1719350668044518, "dur":600429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1719350668647937, "dur":1619, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1719433079667943, "dur":14656, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719433079682605, "dur":10769, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719433079693398, "dur":188, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719433079693596, "dur":2366, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719433079695963, "dur":102136, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719433079798100, "dur":247, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719433079798446, "dur":2293, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719433079693803, "dur":2168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719433079695973, "dur":3785, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719433079699826, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719433079699890, "dur":4348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1719433079704418, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719433079704503, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719433079704615, "dur":188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719433079704804, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719433079705061, "dur":400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719433079705463, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719433079705534, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Repos\\Racing_game_proj\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719433079705841, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf2f7bd1e-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1719433079699826, "dur":6129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719433079706620, "dur":72340, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719433079781687, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719433079781686, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719433079781759, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1719433079782442, "dur":15658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079693856, "dur":2129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079695987, "dur":691, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079696678, "dur":3085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079699790, "dur":3038, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1719433079699776, "dur":3054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1719433079702846, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1719433079703874, "dur":5661, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719433079703873, "dur":5663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719433079709547, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719433079710342, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079710585, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079710742, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079710885, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719433079710967, "dur":79232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719433079710966, "dur":79234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719433079790213, "dur":7818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719433079693860, "dur":2129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719433079695991, "dur":805, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719433079696796, "dur":2986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719433079699793, "dur":6528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1719433079699782, "dur":6541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1719433079706339, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1719433079707185, "dur":25096, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719433079707183, "dur":25099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719433079732328, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719433079733027, "dur":65086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719433079693823, "dur":2154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719433079695979, "dur":667, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719433079696646, "dur":3118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719433079699781, "dur":18853, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1719433079699767, "dur":18868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1719433079718685, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1719433079719335, "dur":78775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079693889, "dur":2113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079696005, "dur":739, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079696744, "dur":3034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079699778, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1719433079705125, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1719433079706337, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1719433079706459, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1719433079708188, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719433079709790, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079709865, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079709973, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079710056, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079710816, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079711213, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719433079711282, "dur":86814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719433079693879, "dur":2116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719433079695998, "dur":641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719433079696639, "dur":3122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719433079699773, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719433079699842, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719433079699908, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1719433079705824, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1719433079707286, "dur":23026, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":6, "ts":1719433079707285, "dur":23029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1719433079730332, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1719433079731127, "dur":66985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719433079693916, "dur":2094, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719433079696012, "dur":786, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719433079696799, "dur":2973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719433079699772, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1719433079706446, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1719433079707391, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1719433079707504, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1719433079709404, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719433079710809, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719433079711206, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719433079711271, "dur":86847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719433079693938, "dur":2079, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719433079696020, "dur":794, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719433079696814, "dur":2953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719433079699768, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1719433079700636, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1719433079702551, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1719433079702632, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1719433079703602, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1719433079703695, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1719433079704404, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1719433079704511, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1719433079705299, "dur":7718, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1719433079705298, "dur":7720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1719433079713037, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1719433079713753, "dur":84356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719433079693958, "dur":2065, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719433079696025, "dur":685, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719433079696710, "dur":3065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719433079699776, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1719433079705461, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1719433079706561, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1719433079706661, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1719433079708129, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719433079709513, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719433079710803, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719433079710866, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719433079711222, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719433079711324, "dur":86782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719433079693991, "dur":2039, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719433079696033, "dur":207, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719433079696240, "dur":3528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719433079699786, "dur":6541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1719433079699769, "dur":6559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1719433079706346, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1719433079707274, "dur":44063, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719433079707272, "dur":44066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719433079751370, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719433079753886, "dur":44228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719433079694013, "dur":2022, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719433079696035, "dur":3731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719433079699767, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1719433079700407, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1719433079702296, "dur":5600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1719433079702295, "dur":5602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1719433079707909, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1719433079708624, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719433079710337, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719433079710394, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719433079710696, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719433079711214, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719433079711319, "dur":86776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079694038, "dur":2003, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079696041, "dur":3733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079699787, "dur":6201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity\\Unity\\2022.3.21f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1719433079699774, "dur":6215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1719433079706008, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1719433079707531, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079708129, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719433079708913, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Repos/Racing_game_proj/Racing_game_proj_build/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719433079710474, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079710622, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079710805, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079711204, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719433079711284, "dur":86813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719433079802565, "dur":666, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

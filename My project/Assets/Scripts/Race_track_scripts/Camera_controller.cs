@@ -13,6 +13,7 @@ public class Camera_controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Waiter.Wait(1, () =>{});
         player = GameObject.FindWithTag("Player");
         while (car == null)
         {

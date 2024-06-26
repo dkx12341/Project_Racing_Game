@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1117
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 102
+  controlID: 38
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -242,15 +242,15 @@ MonoBehaviour:
     y: 728
     width: 1540
     height: 339
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,9 +348,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: fabcffff4abdffff56c3ffffd4c3fffffec4ffff2ec5ffff3cc5ffff5ec5ffff12cfffff5ef3ffff30fbffffb85a00007e5b0000
+      m_SelectedIDs: 1c7f0000
+      m_LastClickedID: 32540
+      m_ExpandedIDs: 42caffffdaceffffe8d4ffff5ad8ffff30fbfffff0730000287400005c7e0000b67e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -704,9 +704,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 634.3914, y: 293.76752, z: 199.93199}
+    m_Target: {x: -246.84924, y: 116.28173, z: 195.1238}
     speed: 2
-    m_Value: {x: 634.3914, y: 293.76752, z: 199.93199}
+    m_Value: {x: -246.84924, y: 116.28173, z: 195.1238}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -756,9 +756,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.011997574, y: -0.00031050507, z: -0.000053288182, w: 0.999928}
   m_Size:
-    m_Target: 513.55005
+    m_Target: 580.1363
     speed: 2
-    m_Value: 491.43542
+    m_Value: 555.15436
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -926,7 +926,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Race_track_scripts/Power_pads
+    - Assets/Resources/Scenes/Levels
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -934,16 +934,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Race_track_scripts/Power_pads
+  - Assets/Resources/Scenes/Levels
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Repos\Racing_game_proj\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 202}
-    m_SelectedIDs: 265c0000
-    m_LastClickedID: 23590
-    m_ExpandedIDs: 00000000f05b0000f25b0000f45b0000f65b0000f85b0000fa5b0000fc5b0000205c000000ca9a3b
+    m_SelectedIDs: 4a5c0000
+    m_LastClickedID: 23626
+    m_ExpandedIDs: 000000001a5c00001c5c00001e5c0000205c0000225c0000245c0000265c00004e5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -971,7 +971,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f05b0000f25b0000f45b0000f65b0000f85b0000fa5b0000fc5b0000
+    m_ExpandedIDs: 000000001a5c00001c5c00001e5c0000205c0000225c0000245c0000265c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1063,7 +1063,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3234
+  m_LastSelectedObjectID: -10204
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
