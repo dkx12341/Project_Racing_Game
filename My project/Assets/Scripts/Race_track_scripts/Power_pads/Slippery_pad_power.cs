@@ -12,8 +12,8 @@ public class Slippery_pad_power : Pad_power
     // Start is called before the first frame update
     public override void apply_pad_power(Collider other)
     {
-        GameObject car = other.gameObject;
-        WheelCollider [] wheel_colliders = car.GetComponentsInChildren<WheelCollider>();
+        GameObject players_car = other.gameObject;
+        WheelCollider [] wheel_colliders = players_car.GetComponentsInChildren<WheelCollider>();
 
         divide_stiffness(wheel_colliders);
 

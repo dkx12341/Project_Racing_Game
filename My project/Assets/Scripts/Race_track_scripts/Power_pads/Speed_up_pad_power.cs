@@ -11,8 +11,8 @@ public class Speed_up_pad_power : Pad_power
     public float speed_up_power = 2;
     public override void apply_pad_power(Collider other)
     {
-        GameObject car = other.gameObject;
-        Player_car_controller engine = car.GetComponentInChildren<Player_car_controller>();
+        GameObject players_car = other.gameObject;
+        Player_car_controller engine = players_car.GetComponentInChildren<Player_car_controller>();
 
         multiply_engine_power(engine);
 

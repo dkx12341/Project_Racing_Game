@@ -708,6 +708,7 @@ GameObject:
   - component: {fileID: 48804924268350819}
   - component: {fileID: 1752423609994221681}
   - component: {fileID: 2803431336922779534}
+  - component: {fileID: 576156701997053378}
   m_Layer: 0
   m_Name: Car1
   m_TagString: Car
@@ -820,6 +821,7 @@ MonoBehaviour:
   engine_power: 600
   brake_power: 1700
   speed: 0
+  wheel_speed: 0
   max_speed: 600
   slip_angle: 0
   slip_allowance: 0.3
@@ -936,6 +938,19 @@ MonoBehaviour:
   Selected_track: {fileID: 11400000, guid: 73aba50c4d4b21f4a912c1eb21887074, type: 2}
   finished_laps: 0
   Finished_game_menu: {fileID: 0}
+--- !u!114 &576156701997053378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379514897707105257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 866cfca5b292e3e48be3e424968a031f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  race_controller: {fileID: 0}
 --- !u!1 &6847463101767557396
 GameObject:
   m_ObjectHideFlags: 0

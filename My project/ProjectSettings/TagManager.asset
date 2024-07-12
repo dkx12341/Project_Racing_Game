@@ -10,6 +10,9 @@ TagManager:
   - Lap_timer
   - Best_time
   - Finished_game_menu
+  - Car
+  - Race_timer
+  - Race_controller
   layers:
   - Default
   - TransparentFX
