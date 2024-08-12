@@ -214,7 +214,6 @@ GameObject:
   - component: {fileID: 6180542621557337280}
   - component: {fileID: 7931471006409183212}
   - component: {fileID: 8322546356250729811}
-  - component: {fileID: 3277100289864958077}
   - component: {fileID: 9119255667768219345}
   m_Layer: 0
   m_Name: Car2
@@ -423,28 +422,6 @@ MonoBehaviour:
   Idle_max_pitch: 0.8
   engine_usage: 0
   volume: 0.02
---- !u!114 &3277100289864958077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2440100706558624049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd10f22720bcc724d9df58a031b0f77d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  start_timer: 0
-  lap_time: 0
-  all_checkpoints_true: 0
-  best_time_ui: {fileID: 0}
-  Best_time: {fileID: 11400000, guid: a9ccaab39a588044085f18b8e0ff68fd, type: 2}
-  Selected_car: {fileID: 11400000, guid: 3de10406541613349b81f277cc1e09d6, type: 2}
-  Selected_laps: {fileID: 11400000, guid: 8bff553ff838c9e4dbf909ff5849b28c, type: 2}
-  Selected_track: {fileID: 11400000, guid: 73aba50c4d4b21f4a912c1eb21887074, type: 2}
-  finished_laps: 0
-  Finished_game_menu: {fileID: 0}
 --- !u!114 &9119255667768219345
 MonoBehaviour:
   m_ObjectHideFlags: 0

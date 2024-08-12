@@ -12,7 +12,6 @@ public class Setup_menu_controller : MonoBehaviour
     public TMP_Dropdown track_selector;
     public TMP_Dropdown car_selector;
     public TMP_Dropdown laps_selector;
-    public TMP_InputField nick;
     public TMP_Text best_time;
     //public Scene[] levels_list;
     public UnityEngine.Object[] cars_list;
@@ -20,7 +19,7 @@ public class Setup_menu_controller : MonoBehaviour
     public SO_string Selected_car;
     public SO_string Selected_track;
     public SO_int Selected_laps;
-    public bool good_nick = false;
+
     public void Start()
     {
         track_selector.ClearOptions();
@@ -96,24 +95,10 @@ public class Setup_menu_controller : MonoBehaviour
 
     public void on_click_start()
     {
-        if (good_nick == true)
-        {
+       
             SceneManager.LoadScene(currently_selected_level);
-        }
+      
 
-    }
-
-    public void on_nick_value_changed()
-    {
-        string pattern = @"^[a-zA-Z0-9]{1,20}$";
-        Regex regex = new Regex(pattern);
-
-        string input = nick.text; // Zamieñ na dowolny tekst do przetestowania
-
-        if (regex.IsMatch(input))
-        {
-            good_nick = true;
-        }
     }
 }
 

@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+
+//Class controlls main elements of race, such as start, finish, various menus ect.
 public class Race_controller : MonoBehaviour
 {
-
-    public bool start_timer = false;
-    public float lap_time;
     public bool all_checkpoints_true = false;
     public Dictionary<GameObject, bool> checkpoint_list = new Dictionary<GameObject, bool>();
 
@@ -23,16 +22,18 @@ public class Race_controller : MonoBehaviour
 
     public int finished_laps = 0;
     public GameObject Finished_game_menu;
-    public GameObject Race_timer;
+    public Race_timer Race_timer;
 
 
     void Start()
     {
-        checkpoint_list_raw = GameObject.FindWithTag("Checkpoints_list").transform;
+       
         start_line = GameObject.FindWithTag("Start_line");
         finish_line = GameObject.FindWithTag("Finish_line");
         Finished_game_menu = GameObject.FindWithTag("Finished_game_menu");
-        Race_timer = GameObject.FindWithTag("Race_timer");
+        Race_timer = GameObject.FindWithTag("Race_timer").GetComponent<Race_timer>();
+
+        checkpoint_list_raw = GameObject.FindWithTag("Checkpoints_list").transform;
         foreach (Transform checkpoint in checkpoint_list_raw)
         {
             checkpoint_list.Add(checkpoint.gameObject, false);
@@ -92,15 +93,15 @@ public class Race_controller : MonoBehaviour
 
     void on_start_line_collision(Collider other)
     {
-        if (start_timer == false)
+        if (Race_timer.start_timer == false)
         {
-            start_timer = true;
+            Race_timer.start_timer = true;
         }
     }
 
     void on_finish_line_collision(Collider other)
     {
-        if (start_timer == true && all_checkpoints_true == true)
+        if (Race_timer.start_timer == true && all_checkpoints_true == true)
         {
             finished_laps++;
             if (finished_laps < Selected_laps.Val)
@@ -115,20 +116,20 @@ public class Race_controller : MonoBehaviour
             }
             else
             {
-                start_timer = false;
+                Race_timer.start_timer = false;
                 Score_save_load_system save_load_System = new Score_save_load_system(Selected_car.Str, Selected_track.Str, Selected_laps.Val);
                 save_load_System.Load_data();
-                if (save_load_System.Get_time() > lap_time || save_load_System.Get_time() == 0)
+                if (save_load_System.Get_time() > Race_timer.lap_time || save_load_System.Get_time() == 0)
                 {
                     Finished_game_menu.GetComponent<Finished_game_menu_controller>().is_new_record = true;
-                    save_load_System.Set_time(lap_time);
+                    save_load_System.Set_time(Race_timer.lap_time);
                     save_load_System.Save_data();
                 }
                 else
                 {
                     Finished_game_menu.GetComponent<Finished_game_menu_controller>().is_new_record = false;
                 }
-                Finished_game_menu.GetComponent<Finished_game_menu_controller>().final_time = lap_time;
+                Finished_game_menu.GetComponent<Finished_game_menu_controller>().final_time = Race_timer.lap_time;
                 Finished_game_menu.GetComponent<Finished_game_menu_controller>().game_is_finished = true;
             }
         }

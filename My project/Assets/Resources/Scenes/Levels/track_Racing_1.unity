@@ -4246,10 +4246,10 @@ MonoBehaviour:
   start_timer: 0
   lap_time: 0
   all_checkpoints_true: 0
-  Best_time: {fileID: 0}
-  Selected_car: {fileID: 0}
-  Selected_laps: {fileID: 0}
-  Selected_track: {fileID: 0}
+  Best_time: {fileID: 11400000, guid: a9ccaab39a588044085f18b8e0ff68fd, type: 2}
+  Selected_car: {fileID: 11400000, guid: 3de10406541613349b81f277cc1e09d6, type: 2}
+  Selected_laps: {fileID: 11400000, guid: 8bff553ff838c9e4dbf909ff5849b28c, type: 2}
+  Selected_track: {fileID: 11400000, guid: 73aba50c4d4b21f4a912c1eb21887074, type: 2}
   finished_laps: 0
   Finished_game_menu: {fileID: 0}
   Race_timer: {fileID: 0}
@@ -5791,7 +5791,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam_speed: 3
-  camera_offset: {x: 80, y: 30, z: 0}
 --- !u!1001 &967153747
 PrefabInstance:
   m_ObjectHideFlags: 0
