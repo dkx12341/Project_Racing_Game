@@ -4225,7 +4225,7 @@ Transform:
   m_GameObject: {fileID: 706168048}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.538605, y: -142.79333, z: 48.668274}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4243,8 +4243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 774fcb75bc3b241419868879ccb5c423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start_timer: 0
-  lap_time: 0
   all_checkpoints_true: 0
   Best_time: {fileID: 11400000, guid: a9ccaab39a588044085f18b8e0ff68fd, type: 2}
   Selected_car: {fileID: 11400000, guid: 3de10406541613349b81f277cc1e09d6, type: 2}
@@ -5771,8 +5769,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: -39.6, y: 38.1, z: -79.1}
+  m_LocalRotation: {x: 0.21742597, y: -0.2192532, z: 0.05001931, w: 0.9498169}
+  m_LocalPosition: {x: -419.15543, y: 48.943233, z: -126.51589}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7564,7 +7562,7 @@ Transform:
   m_GameObject: {fileID: 1367436296}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.538605, y: -142.79333, z: 48.668274}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -15,7 +15,7 @@ public class Setup_menu_controller : MonoBehaviour
     public TMP_Text best_time;
     //public Scene[] levels_list;
     public UnityEngine.Object[] cars_list;
-    private string currently_selected_level;
+    private string currently_viewed_track;
     public SO_string Selected_car;
     public SO_string Selected_track;
     public SO_int Selected_laps;
@@ -38,7 +38,7 @@ public class Setup_menu_controller : MonoBehaviour
             }
         }
         track_selector.AddOptions(tracks);
-        currently_selected_level = "track_" + tracks[0];
+        currently_viewed_track = "track_" + tracks[0];
     
         
         List<string> cars = new List<string>();
@@ -80,8 +80,8 @@ public class Setup_menu_controller : MonoBehaviour
     }
     public void on_dropdown_update()
     {
-        currently_selected_level = "track_" + track_selector.options[track_selector.value].text;
-        Selected_track.Str = currently_selected_level;
+        currently_viewed_track = "track_" + track_selector.options[track_selector.value].text;
+        Selected_track.Str = currently_viewed_track;
         Selected_car.Str = car_selector.options[car_selector.value].text;
         Selected_laps.Val = Int32.Parse(laps_selector.options[laps_selector.value].text);
        
@@ -96,7 +96,7 @@ public class Setup_menu_controller : MonoBehaviour
     public void on_click_start()
     {
        
-            SceneManager.LoadScene(currently_selected_level);
+            SceneManager.LoadScene(currently_viewed_track);
       
 
     }

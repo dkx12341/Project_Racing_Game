@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Resources/Scenes/Main_menu.unity
+    path: Assets/Resources/Scenes/Menus/Main_menu.unity
     guid: 666eebb0889f10748a0191682448dc21
   - enabled: 1
-    path: Assets/Resources/Scenes/Options_menu.unity
+    path: Assets/Resources/Scenes/Menus/Options_menu.unity
     guid: 23f42b5fdd9d66448a077db1054046e1
   - enabled: 1
-    path: Assets/Resources/Scenes/Race_setup_menu.unity
+    path: Assets/Resources/Scenes/Menus/Race_setup_menu.unity
     guid: a1d82ee06aa3a5241989faa2a875322a
   - enabled: 1
     path: Assets/Resources/Scenes/Levels/track_test.unity
@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Levels/track_Racing_1.unity
     guid: 4ce933eb2fb21c04e9f069700c82cfc1
   - enabled: 1
-    path: Assets/Resources/Scenes/Levels/track_Quick Test.unity
+    path: Assets/Resources/Scenes/Levels/track_Quick_Test.unity
     guid: 79c487a6b04aa5f4c992f7f7c2ac89c5
   - enabled: 1
     path: Assets/Resources/Scenes/Car_selection.unity
